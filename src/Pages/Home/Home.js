@@ -5,9 +5,9 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <h1 className="text-3xl text-green-600 font-bold underline mt-4 px-4 cursor-pointer">
-        Home
-      </h1>
+      <div className="px-12 py-18">
+
+      </div>
     </div>
   )
 }
