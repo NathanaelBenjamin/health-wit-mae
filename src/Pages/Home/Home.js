@@ -4,6 +4,7 @@ import FeaturedPosts from './POSTS/FeaturedPosts';
 import HeroSection from './HeroSection';
 import TeamLeads from '../Team/TeamLeads';
 import JoinUs from './JOIN-US/JoinUs';
+import Footer from '../../Components/Footer';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <FeaturedPosts />
       <TeamLeads />
       <JoinUs />
+      <Footer />
     </div>
   )
 }
