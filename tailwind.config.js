@@ -3,12 +3,15 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      color: {
+      colors: {
         primary: '#0F8156',
-        secondary: "#E63527"
+        secondary: "#E63527",
+        secondaryBlue: "#4A47F3"
       },
-      fontFamily: ['Source Sans Pro']
-    },
+      fontFamily: {
+        body: ['Source Sans Pro', 'sans-serif']
+      }
+    }
   },
   plugins: [],
 }

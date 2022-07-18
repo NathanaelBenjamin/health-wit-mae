@@ -6,7 +6,7 @@ const Team = () => {
     <div>
       <Navbar />
       <h1 className="text-3xl text-green-600 font-bold underline mt-4 px-4 cursor-pointer md:text-sky-400">
-        Our Team
+        
       </h1>
     </div>
   )
