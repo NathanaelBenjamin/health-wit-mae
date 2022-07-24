@@ -1,13 +1,22 @@
 import React from 'react';
-import Navbar from '../../Components/Navbar';
+import Ellipse from '../../Components/Ellipse';
+import Footer from '../../Components/Footer';
+import FeaturedPosts from "../Home/POSTS/FeaturedPosts"
 
 const Blog = () => {
   return (
     <div>
-      <Navbar />
-      <h1 className="text-3xl text-green-600 font-bold underline mt-4 px-4 cursor-pointer">
-        Blogs
-      </h1>
+      <Ellipse 
+        classname={`blog`}
+      />
+
+      <div className="mt-56 mb-12">
+        <FeaturedPosts 
+          headingClass={`hidden`}
+        />
+      </div>
+
+      <Footer />
     </div>
   )
 }
