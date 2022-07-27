@@ -1,11 +1,11 @@
 import React, { useContext } from 'react';
 import { IdContext } from "../Contexts/IdContext";
-import { NavLink } from "react-router-dom";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import Links from './Links';
 
 
 const Footer = () => {
@@ -21,25 +21,7 @@ const Footer = () => {
             <h1 className="font-bold text-3xl mb-10">Pages</h1>
 
             <div className="links flex flex-col gap-2">
-                <div>
-                    <NavLink to="/">Home</NavLink>
-                </div>
-
-                <div>
-                    <NavLink to="/about-us">About Us</NavLink>
-                </div>
-                
-                <div>
-                    <NavLink to="/blog">Blog</NavLink>
-                </div>
-
-                <div>
-                    <NavLink to="/our-team">Our team</NavLink>
-                </div>
-                
-                <div>
-                    <NavLink to="/contact-us">Contact Us</NavLink>
-                </div>
+                <Links />
             </div>
         </div>
 
@@ -82,7 +64,7 @@ const Footer = () => {
         </div>      
 
         <div className="inline-block">
-            <a href={`#${footerId}`} className="mt-16 bg-gray-100 text-primary py-3 px-5 rounded-lg  hover:bg-transparent hover:border hover:border-gray-100 hover:text-gray-100 transition ease-in duration-200" >Back to top</a>
+            <a href={`#${footerId}`} className="mt-16 bg-gray-100 text-primary py-3 px-5 rounded-lg button-transparent hover:border hover:border-gray-100 hover:text-gray-100" >Back to top</a>
         </div>  
     </footer>
   )

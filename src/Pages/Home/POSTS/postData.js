@@ -12,63 +12,63 @@ import social from "../../../Images/social-community.png";
 const posts = [
     { 
         key: 1,
-        title: "Energetic Foods",
+        title: "Impact of exercises on your mental health.",
         timeline: "MAY 15",
         pictureSrc: energy 
     },
 
     {
         key: 2,
-        title: "Cooking well and eating healthy",
+        title: "Why interacting with nature is important for your health.",
         timeline: "MAY 15",
         pictureSrc: cookingWell
     }, 
 
     {
         key: 3,
-        title: "7 health benefits of Pineapple",
+        title: "Relationhip between Depresssion and Nutrition.",
         timeline: "MAY 15",
         pictureSrc: pineapple
     },
 
     {
         key: 4,
-        title: "Citrus fruits and your eyes",
+        title: "7 reasons why communication is a key to a lasting relationship.",
         timeline: "MAY 15",
         pictureSrc: citrus
     },
 
     {
         key: 5,
-        title: "Social community and well-being",
+        title: "Why it is important to develop your intellectual health.",
         timeline: "MAY 15",
         pictureSrc: social
     },
 
     {
         key: 6,
-        title: "Give us this day",
+        title: "How to establish healthy personal boundaries.",
         timeline: "MAY 15",
         pictureSrc: prayer
     }, 
 
     {
         key: 7,
-        title: "Scientists latest discovery on mental health",
+        title: "Stress and eating habits.",
         timeline: "MAY 15",
         pictureSrc: mentalHealth
     },
 
     {
         key: 8,
-        title: "The importance of adequate rest",
+        title: "10 reasons why communication is important in a relationship.",
         timeline: "MAY 15",
         pictureSrc: adequateRest
     },
 
     {
         key: 9,
-        title: "The connection between relationships and health",
+        title: "How to stay motivated to eating healthy.",
         timeline: "MAY 15",
         pictureSrc: relationships
     }

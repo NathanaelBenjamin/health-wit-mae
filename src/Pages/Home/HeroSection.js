@@ -4,7 +4,7 @@ import heroimage from "../../Images/photo-lovely-young-lady-has-curly-afro-hair-
 
 const HeroSection = () => {
   return (
-    <div className="px-12 mt-8 w-full gap-6 md:gap-0 hero-section flex flex-col md:flex-row justify-between md:justify-center items-center">
+    <div className="lg:px-32 mt-8 w-full gap-6 md:gap-0 hero-section flex flex-col md:flex-row md:justify-center items-center">
         <div className="hero-text flex flex-col justify-center items-center md:items-start gap-8 w-full md:w-3/4 font-bold ">
           <p className="flex flex-col items-center md:items-start">
             <span className='text-lg md:text-2xl'>You're welcome to<br/></span>

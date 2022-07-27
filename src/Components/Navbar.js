@@ -67,7 +67,7 @@ const Navbar = ({logo = logoName, icon = favicon, fontClass = "hover", searchFil
             </div>
             
             <div>
-                <NavLink to="/blog"><span className={fontClass}>Blog</span></NavLink>
+                <NavLink to="/blogs"><span className={fontClass}>Blog</span></NavLink>
             </div>
 
             <div>

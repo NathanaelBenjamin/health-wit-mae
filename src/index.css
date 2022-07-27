@@ -22,6 +22,10 @@ html{
     transform: scale(1.14);
 }
 
+.button-transparent:hover{
+    @apply hover:bg-transparent transition ease-in duration-200;
+}
+
 .post-card{
     @apply flex flex-col justify-center items-center;
 }
@@ -113,7 +117,7 @@ html{
     bottom: 0;
 }
 
-.see-more:hover .forward-arrow img{
+.see-posts:hover .forward-arrow img{
     transition: all ease-in .3s;
     transform: translateX(12px);
 }
@@ -196,6 +200,10 @@ html{
 }
 
 /* BLOGS */
-.blog::after{
+.blogs::after{
     content: "Blogs";
+}
+
+.blog-paragraph{
+    @apply mb-4 text-lg text-justify md:mx-8;
 }
