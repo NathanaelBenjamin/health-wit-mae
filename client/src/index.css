@@ -10,7 +10,8 @@
 }
 
 html{
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
+    color: #333;
 }
 
 .button{
@@ -40,8 +41,12 @@ html{
     @apply grid grid-cols-1 md:grid-cols-3 justify-between items-start gap-x-16 gap-y-20;
 }
 
+.header-link:hover{
+    text-decoration: underline;
+    transition: all ease-in .3s;
+}
 
-
+/* NAVBAR */
 .nav-links a{
     padding: .4rem .3rem;
     position: relative;

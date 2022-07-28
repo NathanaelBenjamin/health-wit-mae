@@ -31,7 +31,7 @@ const FeaturedPosts = ({ headingClass=`not-hidden`, paddingTop = `py-16`, paddin
     //FEATURED POSTS 
   return (
     <div className={`posts ${paddingBlock} ${paddingTop} flex flex-col items-center`}>
-        <a href="#posts" className={`${headingClass} font-bold text-2xl text-center py-4 mb-8`}>Featured posts
+        <a href="#posts" className={`${headingClass} header-link font-bold text-2xl text-center py-4 mb-8`}>Featured posts
         </a>
         <div id="posts" className="posts-grid post-grid">
           {
