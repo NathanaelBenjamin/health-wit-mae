@@ -26,7 +26,7 @@ const posts = [
 
     {
         key: 3,
-        title: "Relationhip between Depresssion and Nutrition.",
+        title: "Relationhip between Depression and Nutrition.",
         timeline: "MAY 15",
         pictureSrc: pineapple
     },

@@ -28,10 +28,10 @@ html{
 
 .post-card{
     @apply flex flex-col justify-center items-center;
-    max-width: 21.5rem;
+    max-width: 22.5rem;
 }
 
-.post-card:hover img {
+.blog-card:hover img {
     transition: all ease-in-out .4s;
     transform: scale(1.17);
 }

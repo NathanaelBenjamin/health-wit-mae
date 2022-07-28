@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Post = ({pictureSrc, timeline, title, key}) => {
   return (
     <Link to="/">
-        <div className="post post-card overflow-hidden" key={key}>
+        <div className="post post-card blog-card overflow-hidden" key={key}>
             <div className="post-image relative">
                 <img className='object-cover' src={pictureSrc} alt="" />
             </div>
