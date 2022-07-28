@@ -9,7 +9,7 @@ const Post = ({pictureSrc, timeline, title, key}) => {
                 <img className='object-cover' src={pictureSrc} alt="" />
             </div>
 
-            <div className="post-timeline pt-2">
+            <div className="post-timeline pt-6">
                 <h2>{timeline}</h2>
             </div>
 

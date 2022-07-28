@@ -13,11 +13,11 @@ const OneBlog = () => {
             <div className="date">May 15, 2022.</div>
           </div>
           
-          <div className='md:float-left my-8 md:m-8 flex justify-center'>
+          <div className='md:float-left my-8 md:mx-8 md:my-3 flex justify-center'>
             <img src={image} alt="" />
           </div>
 
-          <p className='first-letter:text-5xl first-letter:font-bold blog-paragraph clear-right md:mt-8'>
+          <p className='first-letter:text-5xl first-letter:font-bold blog-paragraph clear-right md:mt-9'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel velit maiores accusantium cumque impedit asperiores necessitatibus quae fugiat, consequatur eligendi et, recusandae praesentium? Accusantium eius at laudantium qui laboriosam magni animi, itaque velit est odio id perferendis esse accusamus explicabo.
           </p>
 

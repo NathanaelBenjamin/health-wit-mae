@@ -28,12 +28,12 @@ html{
 
 .post-card{
     @apply flex flex-col justify-center items-center;
+    max-width: 21.5rem;
 }
 
-.post-card:hover .post-image{
+.post-card:hover img {
     transition: all ease-in-out .4s;
-    transform: scale(1.1);
-    margin-bottom: .4rem;
+    transform: scale(1.17);
 }
 
 .post-grid{
