@@ -5,11 +5,11 @@ import teams from './teamData';
 const TeamLeads = ({heading = `not-hidden`}) => {
   return (
     <div className='flex flex-col justify-center items-center py-6 px-12 gap-10'>
-        <h1 className={`font-bold text-xl ${heading}`}>
+        <a href="#leads" className={`font-bold text-xl ${heading}`}>
             Meet our team leads
-        </h1>
+        </a>
 
-        <div className="post-grid justify-between">
+        <div id="leads" className="post-grid justify-between">
             {
                 teams.map(teamLead => {
                     return <Person 
