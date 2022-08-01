@@ -18,6 +18,14 @@ html{
     @apply rounded-full py-2 px-4 border-0 text-gray-100  w-32 font-bold;
 }
 
+li{
+    @apply my-6;
+}
+
+.blog-header{
+    @apply font-bold text-2xl leading-9;
+}
+
 .button:hover{
     transition: all ease-in .3s;
     transform: scale(1.14);
@@ -210,5 +218,5 @@ html{
 }
 
 .blog-paragraph{
-    @apply mb-4 text-lg text-justify md:mx-8;
+    @apply my-4 text-lg text-justify md:mx-8;
 }
