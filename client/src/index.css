@@ -166,11 +166,11 @@ li{
     }
 
     .first-rotate{
-        transform: rotate(46deg) translate(4px, 4px);
+        transform: rotate(45deg) translate(2.5px, 4px);
     }
 
     .second-rotate{
-        transform: rotate(-46deg);
+        transform: rotate(-45deg) translate(-1px, -3px);
     }
 }
 
