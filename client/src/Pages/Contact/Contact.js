@@ -16,7 +16,7 @@ const Contact = () => {
         <JoinUs />
       </div>
 
-      <div className="flex flex-col gap-16 mb-10 justify-center items-center">
+      <div className="flex flex-col gap-10 md:gap-16 mb-10 justify-center items-center">
         <div className="md:w-1/2 text-center">
           <BookAnAppointment />
         </div>
