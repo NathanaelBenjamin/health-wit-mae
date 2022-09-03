@@ -15,7 +15,7 @@ const Footer = () => {
     //id={footerId}
 
   return (
-    <footer className='flex flex-col lg:grid lg:grid-cols-6 md:p-12 p-6 bg-primary text-gray-100 items-start gap-x-12 gap-y-16 lg:justify-items-center relative'>
+    <footer className='flex flex-col lg:grid lg:grid-cols-6 md:p-12 px-6 py-10 bg-primary text-gray-100 items-start gap-x-12 gap-y-16 lg:justify-items-center relative'>
 
         <div className="flex flex-col md:col-span-2">
             <div>
