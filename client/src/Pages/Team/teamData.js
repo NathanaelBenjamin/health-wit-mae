@@ -3,7 +3,7 @@ import Adedayo from "../../Images/Adedayo.png";
 import Marvellous from "../../Images/Marvellous.png";
 import Emmanuel from "../../Images/Emmanuel.jpg";
 import Nathanael from "../../Images/Nathanael.png";
-import Michael from "../../Images/Michael.png";
+import kehinde from "../../Images/kehinde.jpg";
 
 const teams = [
     {
@@ -43,9 +43,9 @@ const teams = [
 
     {
         id: 6,
-        name: "Michael",
+        name: "Kehinde Oloyede",
         role: "Media & Publicity Director",
-        picture: Michael
+        picture: kehinde
     },
 ];
 
